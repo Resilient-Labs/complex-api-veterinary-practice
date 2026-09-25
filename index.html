@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Vet App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Wrapper Main -->
+
+    <main>
+    <p class="dagi-title">Dag's Veterniary</p>
+
+    <!-- Image and heading wrapper -->
+    <div class="hero">
+    <h1>Is it safe to walk your dog today?</h1>
+    <!-- <img src="/image/dog.jpg" alt="dog"> -->
+    </div>
+    
+  
+        <div class="left-container">
+    <section class="input-wrapper">
+        <label for="zip">Enter your zip Code</label>
+        <!-- Row displayed contents -->
+        <div class="row">
+            <input type="text" name="zip" id="zipCode" placeholder="02149">
+        <button type="button">Check Weather</button>
+        </div>
+        </section>
+        
+
+    <!-- THIS IS WHERE THE MAGIC GOES  -->
+     <section class="vet-content">
+        <span id="placeState"></span>
+        <h1 id="temp"></h1>
+        <p id="status"></p>
+        <p id="description"></p>
+        </section>
+        </div>
+        
+
+
+        <aside class="walk-wrapper">
+            <p class="guide">Walk Guide</p>
+
+            <div class="walk-guide">
+            <h4>Below 32 F</h4>
+            <h4>Too Cold</h4>
+            <p>Keeps walks short. Small or short haired dogs may need a coat. </p>
+            </div>
+
+            <div class="walk-guide">
+            <h4>32-75 F</h4>
+            <h4>Safe for walks</h4>
+            <p>Normal walks are fine</p>
+            </div>
+
+            <div class="walk-guide">
+            <h4>76-85 F</h4>
+            <h4>Keep it short</h4>
+            <p>Shorter walks, and bring water</p>
+            </div>
+
+            <div class="walk-guide">
+            <h4>Above 85 F</h4>
+            <h4>Hot pavement risk</h4>
+            <p>Walk early morining or evening. Stay on grass.</p>
+        </div>
+        </aside>
+        
+    </section>
+
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
