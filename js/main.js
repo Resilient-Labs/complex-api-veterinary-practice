@@ -27,7 +27,7 @@ function grabLocation() {
                     console.log(data)
                     document.querySelector('#temperature').innerText = "Temperature: " + data.current.temp_f + " °F"
                     if (data.current.temp_f > 60){
-                        document.querySelector('#safety-message').innerText = "Reconsider walking the luh doggy."
+                        document.querySelector('#safety-message').innerText = "Reconsider walking the dog. Hot pavement may cause discomfort for dog's paws."
                     } else {
                         document.querySelector('#safety-message').innerText = "It's a great time for your dog to get some exercise."
                     }

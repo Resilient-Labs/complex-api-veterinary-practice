@@ -1,22 +1,29 @@
-# 🐾 Project: Complex API 1 - Veterinary Practice
+# Pet Weather Safety
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+A weather safety tool for pet owners built using HTML, CSS, and JavaScript.
 
-### How to submit your code for review:
+## About
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This application allows users to enter their location and check current weather conditions to determine whether it is safe for their pet to be outside. The project connects two APIs, using data from one API to make a request to another and display relevant results to the user.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Screenshot
+
+![Project Screenshot](assets/mockup.png)
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+- Weather API
+- Location API
+
+## What I Practiced
+
+- Connecting multiple APIs
+- Using data from one API in another API request
+- Fetching data with `fetch()`
+- Working with JSON data
+- DOM manipulation
+- Handling user input
+- Displaying API results on the page
