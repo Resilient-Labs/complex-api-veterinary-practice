@@ -1,10 +1,10 @@
 # Pet Weather Safety
 
-A weather safety tool for pet owners built using HTML, CSS, and JavaScript.
+A weather safety tool for veternarians built using HTML, CSS, and JavaScript.
 
 ## About
 
-This application allows users to enter their location and check current weather conditions to determine whether it is safe for their pet to be outside. The project connects two APIs, using data from one API to make a request to another and display relevant results to the user.
+This application allows users to enter their location and check current weather conditions to determine whether it is safe for a pet to be outside. The project connects two APIs, using data from one API to make a request to another and display relevant results to the user.
 
 ## Screenshot
 
