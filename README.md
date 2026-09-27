@@ -1,22 +1,26 @@
-# 🐾 Project: Complex API 1 - Veterinary Practice
+# Emergency Vet Finder
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+A simple front-end web app that helps pet owners find nearby veterinary clinics and animal hospitals by ZIP code. A vet practice can share it with clients for times when the practice is closed, like nights, weekends, or holidays, so they know where to go in an emergency.
 
-### How to submit your code for review:
+![Screenshot](./images/vetApp.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Why It's Useful
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+When a pet has an emergency after hours, the owner often calls their regular vet and gets a voicemail. Pointing clients to this app, from the practice's website, voicemail message, or after-hours sign, gets them to nearby care quickly and takes stress off the practice's staff.
+
+## How It Works
+
+This app chains two APIs together:
+
+1. The user enters their **ZIP code**.
+2. **Zippopotam.us** turns the ZIP code into a place name and its latitude and longitude.
+3. Those coordinates are sent to the **Geoapify Places API**, which searches for veterinary clinics near that location.
+4. The results are displayed on the page as a list of nearby vets with their names and addresses.
+
+## How It's Made
+
+**Tech used:** HTML, CSS, JavaScript
+
+**APIs:**
+- [Zippopotam.us](https://api.zippopotam.us): converts a ZIP code to coordinates (no API key needed)
+- [Geoapify Places API](https://www.geoapify.com/places-api/): finds veterinary locations near those coordinates
