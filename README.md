@@ -2,21 +2,10 @@
 
 ### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
 
-### How to submit your code for review:
+### Project Description: My project used a free yet limited dog breed API to get information about the dog breed's general characteristics. The dog breed output from the first API is then used to obtain a corresponding dog image from the DogCEO API. The user can read a short factsheet about their dog of choice, giving some form of reassurance and whimsy to new pet owners.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![screenshot of web application](assets/Photos/screenshotDogWeb.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Issues I ran into include:
+### -The initial API breaks down names down into their sub breeds which confuses the second API 
+### - The Dog CEO API does not have some common dog names (e.g. golden retriever)
