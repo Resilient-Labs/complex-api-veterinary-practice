@@ -1,0 +1,19 @@
+body {
+background: #afd135;
+}
+
+.container {
+margin: auto;
+background: white;
+padding: 50px;
+}
+
+h1 {
+color: #afd135;
+font-size: 3rem;
+}
+
+button {
+background: #afd135;
+color: white;
+}
