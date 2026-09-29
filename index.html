@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veterinary Breed Reference</title>
+  <!-- empty icon so the console doesn't show a favicon 404 that looks like an API error -->
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Veterinary Breed Reference</h1>
+    <p>Quick breed lookup for the front desk and exam room. Pick a breed to see its size, lifespan, and background.</p>
+
+    <label for="breed-select">Breed</label>
+    <!-- stays disabled until the Dog API list comes back -->
+    <select id="breed-select" disabled>
+      <option value="">Loading breeds...</option>
+    </select>
+
+    <p id="message"></p>
+
+    <!-- shows the Dog API -> name -> Wikipedia chain so it's obvious the 2nd call depends on the 1st -->
+    <section id="flow" hidden>
+      <h2>How this lookup worked</h2>
+      <ol>
+        <li id="flow-dog"></li>
+        <li id="flow-name"></li>
+        <li id="flow-wiki"></li>
+      </ol>
+    </section>
+
+    <div id="results" hidden>
+      <section class="card" id="dog-card">
+        <h2>Breed Profile <span class="source">Dog API</span></h2>
+        <div id="dog-info"></div>
+      </section>
+
+      <section class="card" id="wiki-card">
+        <h2>Wikipedia Summary <span class="source">Wikipedia</span></h2>
+        <div id="wiki-info"></div>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
