@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#bed3e7;
+    max-width:800px;
+    padding:30px 20px;
+}
+h1{
+    text-align: center;
+ margin:30px 5px;   
+}
+h2{
+    margin:30px 5px;
+}
+button{
+    background:#335f78;
+    color:whitesmoke;
+    border:none;
+    border-radius:6px;
+    font-size: 1rem;
+}
+.disclaimer{
+    background: #f2e5ba;
+    padding:20px;
+}
