@@ -23,7 +23,7 @@ header > h2{
     border-radius: 15px;
     background: #ffffffb9;
     padding: 1rem;
-    height: 20rem;
+    min-height: 20rem;
 }
 .child > section{
     text-align: center;
@@ -49,4 +49,34 @@ p{
     padding-top: 1rem;
     font-size: 1.4rem;
     line-height: 2rem;
+}
+@media (max-width: 964px){
+    input{
+        width: 35%;
+    }
+}
+@media (max-width: 935px){
+    h1{
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    input, button{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 717px){
+    h1{
+        font-size: 1.4rem;
+    }
+    h2, h3{
+        font-size: 1rem;
+    }
+    input, button{
+        font-size: .8rem;
+    }
 }
