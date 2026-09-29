@@ -1,0 +1,110 @@
+/* 
+=======================
+BORDER BOX HACK
+=======================
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*
+========================
+CLEARFIX HACK
+========================
+*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+	clear: both;
+}
+body{
+    background-image: url(Photos/dogBackground.avif);
+    background-position: center;
+ 
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(63, 52, 19); 
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-bottom: 2.3rem;
+    padding-top: 3rem;
+    background: rgba(188, 181, 103, 0.801);
+
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(170, 129, 18); 
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-bottom: 1.5rem;
+}
+.typeHere{
+    font-size: 2rem;
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+#dogBreed{
+    font-size: 2rem;
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+#submit{
+    font-size: 2rem;
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+}
+img{
+    max-width: 800px;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    width: 60%;
+    margin: auto;
+}
+#factSheet{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    width: 60%;
+    margin: 2rem auto;
+    background: rgba(194, 177, 163, 0.908);
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+}
+#training, #barking, #strangers, #life, #otherDogs{
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    width: 60%;
+    margin: auto;
+    background: rgba(194, 177, 163, 0.908);
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+}
+.train, .bark, .strange, .lifeEx, .others{
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0.8rem;
+}
