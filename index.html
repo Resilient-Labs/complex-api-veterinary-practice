@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Vet Breed Reference</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="app-header">
+        <span class="icon">🐾</span>
+        <h1>Vet Breed Reference</h1>
+
+        <p>Quickly view general information about common dog breeds.</p>
+      </header>
+      <section class="search-section">
+        <form id="breedForm">
+          <label for="breedSelect"> Select a dog breed </label>
+          <select id="breedSelect">
+            <option value="">Breeds...</option>
+          </select>
+          <button type="submit">View Breed</button>
+        </form>
+
+        <p id="status"></p>
+      </section>
+      <section id="breedResult" class="breed-result hidden">
+        <div class="breed-header">
+          <img id="breedImage" src="" alt="" class="breed-image" />
+
+          <div>
+            <h2 id="breedName"></h2>
+            <p id="breedDescription"></p>
+          </div>
+        </div>
+
+        <section class="info-container">
+          <h3>Breed Information</h3>
+          <div class="info-grid">
+            <article class="info-card">
+              <h4>Life Expectancy</h4>
+              <p id="life"></p>
+            </article>
+
+            <article class="info-card">
+              <h4>Male Weight</h4>
+              <p id="maleWeight"></p>
+            </article>
+
+            <article class="info-card">
+              <h4>Female Weight</h4>
+              <p id="femaleWeight"></p>
+            </article>
+
+            <article class="info-card">
+              <h4>Origin</h4>
+              <p id="origin"></p>
+            </article>
+
+            <article class="info-card">
+              <h4>Coat</h4>
+              <p id="coat"></p>
+            </article>
+            <article class="info-card">
+              <h4>Exercise</h4>
+              <p id="exercise"></p>
+            </article>
+
+            <article class="info-card">
+              <h4>Hypoallergenic</h4>
+              <p id="hypoallergenic"></p>
+            </article>
+
+            <article class="info-card">
+              <h4>Temperament</h4>
+              <p id="temperament"></p>
+            </article>
+          </div>
+        </section>
+
+        <section class="wiki-section">
+          <h3>Additional Breed Overview</h3>
+
+          <p class="api-label">Information retrieved from Wikipedia</p>
+
+          <p id="wikiSummary">Loading additional information...</p>
+        </section>
+
+        <p class="disclaimer">
+          This app provides general breed information and should not be used for
+          veterinary diagnosis or medical decisions.
+        </p>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
