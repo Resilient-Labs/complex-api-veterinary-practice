@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* color shows while the big photo is still loading */
+  background: #eef3f1 url("vet.jpg") center / cover fixed;
+  color: #222;
+}
+
+/* mostly-solid white so the cards stay readable over the photo */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.94);
+  border-top: 6px solid #2e7d6b;
+}
+
+h1 {
+  margin-top: 0;
+  color: #2e7d6b;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+select {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#message {
+  min-height: 1.2em;
+}
+
+.error {
+  color: #b00020;
+}
+
+#flow {
+  background: #f5f8f7;
+  border-left: 4px solid #2e7d6b;
+  padding: 10px 16px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#flow h2 {
+  font-size: 16px;
+  margin: 0 0 6px;
+}
+
+/* long wikipedia urls were running off the edge on phones */
+#flow li {
+  margin: 4px 0;
+  word-break: break-word;
+}
+
+code {
+  background: #e3ebe8;
+  padding: 1px 4px;
+}
+
+/* side by side on desktop, stacks on small screens */
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 360px;
+  border: 1px solid #cfd9d5;
+  padding: 16px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.source {
+  font-size: 12px;
+  font-weight: normal;
+  background: #2e7d6b;
+  color: #fff;
+  padding: 2px 6px;
+  vertical-align: middle;
+}
+
+.card p {
+  margin: 6px 0;
+  line-height: 1.4;
+}
+
+.card img {
+  display: block;
+  max-width: 100%;
+  max-height: 260px;
+  margin-bottom: 10px;
+}
+
+.muted {
+  color: #666;
+  font-style: italic;
+}
