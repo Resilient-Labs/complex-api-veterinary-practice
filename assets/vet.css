@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 62.5%;
+    background: #8baebe;
+    font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+}
+header{
+    background: #ffffffcb;
+    border: 2px solid #000;
+}
+header > h2{
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+.parentSection{
+    padding: 5rem 25%;
+}
+.child{
+    border: 2px solid #000;
+    border-radius: 15px;
+    background: #ffffffb9;
+    padding: 1rem;
+    min-height: 20rem;
+}
+.child > section{
+    text-align: center;
+    line-height: 2.5rem;
+}
+h1{
+    font-size: 2.4rem;
+}
+h2{
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+input{
+    font-size: 1.2rem;
+}
+button{
+    font-size: 1.2rem;
+    padding: 0 2.5px;
+}
+p{
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+@media (max-width: 964px){
+    input{
+        width: 35%;
+    }
+}
+@media (max-width: 935px){
+    h1{
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    input, button{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 717px){
+    h1{
+        font-size: 1.4rem;
+    }
+    h2, h3{
+        font-size: 1rem;
+    }
+    input, button{
+        font-size: .8rem;
+    }
+}
