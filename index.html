@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Check the air quality outside before taking your dog for a walk.">
+  	<meta name="keywords" content="pet health, air quality, veterinary practice, outdoor safety">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>PawAir - Check Before Walks</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>PawAir</h1>
+			<p>Check the air <em>before</em> you grab the leash.</p>
+		</header>
+
+		<main>
+
+			<section class="searchSection">
+				<label for="zipCode">What ZIP code are you walking in?</label>
+				<input type="text" id="zipCode" placeholder="e.g. 10003">
+				<button id="checkAir" type="button">Check Air</button>
+			</section>
+
+			<section id="results" class="resultsSection"></section>
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
