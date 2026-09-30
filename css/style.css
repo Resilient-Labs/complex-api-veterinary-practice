@@ -1,0 +1,162 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+/* .clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+} */
+
+/* .clear {
+	clear: both;
+} */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+margin: 0;
+min-height: 100vh;
+background: #f4f7f1;
+color: #243128;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5;
+}
+
+/* HEADER */
+
+header {
+  background: #edf5e8;
+  padding: 45px 60px;
+  border-bottom: 6px solid #4f8a5b;
+}
+
+header h1 {
+  margin: 0;
+  color: #1f6b3a;
+  font-size: 3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+em {
+font-weight: bolder;
+color: #1f6b3a;
+}
+
+em:hover {
+  color: #89bdf1;
+}
+
+header p {
+  margin: 8px 0 0;
+  color: #89bdf1;
+  font-size: 1.15rem;
+  font-weight: lighter;
+}
+
+header p:hover {
+  color: #4d6253;
+}
+
+/******************************************
+/* MAIN LAYOUT
+/*******************************************/
+
+main {
+  width: 85%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+/* SEARCH SECTION */
+
+.searchSection {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-left: 5px solid #4f8a5b;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.searchSection label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.searchSection input {
+  width: 250px;
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid #aab5ad;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.searchSection input:focus {
+  outline: 2px solid #87b894;
+  border-color: #4f8a5b;
+}
+
+.searchSection button {
+  padding: 10px 20px;
+  margin-left: 8px;
+  border: 2px solid #285b35;
+  border-radius: 7px;
+  background: #3f7e4c;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.searchSection button:hover {
+  background: #89bdf1;
+}
+
+
+/* RESULTS SECTION */
+
+.resultsSection {
+  background: white;
+  padding: 28px;
+  border-top: 5px solid #4f8a5b;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.resultsSection:empty {
+  display: none;
+}
+
+.resultsSection h2 {
+  margin: 0 0 18px;
+  color: #1f6b3a;
+  font-size: 1.6rem;
+}
+
+.resultsSection p {
+  margin: 10px 0;
+  font-size: 1.05rem;
+}
+
+.resultsSection p:last-child {
+  margin-top: 22px;
+  padding: 14px 16px;
+  background: #e7f4e8;
+  border-left: 4px solid #4f8a5b;
+  font-weight: bold;
+  color: #285b35;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
