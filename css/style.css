@@ -1,0 +1,129 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    background-color: #F6F3EC;
+    color: #1D2A24;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px 20px;
+}
+
+.dagi-title{
+    margin: 0 0 8px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2F6B3A;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-size: 44px;
+
+    color: #1D2A24;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.hero img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.walk-wrapper {
+    width: 320px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    height: 52px;
+    padding: 0 16px;
+    font-size: 18px;
+    font-family: inherit;
+    background-color: white;
+    border: 1px solid #C9C2B2;
+    border-radius: 10px;
+}
+
+button {
+    height: 52px;
+    padding: 0 24px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    background-color: #2F6B3A;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.vet-content {
+    /* min-height: 260px; */
+    padding: 32px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+.hot {
+    background-color: #F9E2DA;
+    color: #A3321A;
+}
+
+.keep-it-short {
+    background-color: #F8ECD4;
+    color: #8A5300;
+}
+
+.safe {
+    background-color: #E4EFE2;
+    color: #2F6B3A;
+}
+
+.tooCold {
+    background-color: #E3ECF7;
+    color: #1E4E8C;
+}
+
+.walk-guide {
+    background-color: white;
+    border: 1px solid #E4DFD3;
+    border-radius: 14px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+}
+
+
+
