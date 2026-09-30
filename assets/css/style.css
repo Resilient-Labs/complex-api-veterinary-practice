@@ -1,0 +1,64 @@
+body {
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center; /* Centers content horizontally */
+    align-items:center;     /* Centers content vertically */
+    background: url('../images/dogs-vet.jpg') center / cover no-repeat;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding: 30px 40px;
+    border: 3px solid rgb(222, 183, 111); 
+    border-radius: 16px;
+    backdrop-filter: blur(8px);
+}
+
+.search{
+    margin-bottom:15px;
+}
+
+img{
+    display:block;
+    max-height:180px;
+    width:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:16px;
+}
+
+p{
+    line-height:8px;
+    text-align:center;
+}
+
+.dog{
+    color:rgb(53, 10, 10);
+    margin-top:15px;
+    text-transform: capitalize;
+    text-align:center;
+}
+
+input::placeholder{
+    text-align:center;
+    font-style:italic;
+}
+
+button{
+    width:100px;
+    height:31px;
+    background-color:rgb(222, 183, 111);
+    cursor:pointer;
+}
+
+input{
+    text-align:center;
+    height:25px;
+    width:300px;
+}
