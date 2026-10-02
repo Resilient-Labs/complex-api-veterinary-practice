@@ -1,0 +1,25 @@
+body{ 
+    margin: 30px; 
+    background-color: rgb(246, 237, 225);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li { 
+    list-style: none;
+}
+
+.breed-desctiption { 
+    padding: 300px; 
+}
+
+input { 
+    padding: .5rem; 
+
+}
+
+button { 
+    padding: .5rem 1rem; 
+
+}

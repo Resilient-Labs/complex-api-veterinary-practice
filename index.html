@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vet App</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Dog Breed Check</h1>
+        <p> Check which medications have been cited in FDA reports.</p>
+    </main>
+
+    <section class="search-box"> 
+        <input id="search-input" type="text" placeholder="Enter a dog breed"> 
+            <button id="search-button">Search</button>
+    </section>
+
+    <div id="status" class="status"></div>
+
+    <section id="breed-section" class="hidden"> 
+        <h2 id="breed-name"></h2>
+        <p id="breed-description"></p>
+
+        <h3>Medication Cited in FDA Side-Effect Reports</h3>
+        <ul id="medications-list"></ul> 
+        <small> <p>The informtion provide is based on FDA adverse event reports.
+        A report does not prove a medicaton caused the side effect. This is not medical advice.</p></small>
+    </section>
+
+
+    		<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
