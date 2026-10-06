@@ -1,22 +1,21 @@
-# 🐾 Project: Complex API 1 - Veterinary Practice
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+# Vet
 
-### How to submit your code for review:
+## Description
+Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Technologies
+- HTML
+- JavaScript
+- API
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It Works
+1. Take breeding infomation 
+2. plugging it into the dom
+
+## Struggles
+1. Trying to get the api to work!
+
+## Future Improvements
+- Add css
+- Add Imgs
