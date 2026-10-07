@@ -1,0 +1,47 @@
+/* Universal */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/6c2ebeb34ba8e24047d9c911eedcc42e.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: orangered;
+}
+.users{
+    text-align: center;
+    .touch{
+        border-radius:10px;
+        height: 30px;
+    }
+}
+input{
+    width: 20%;
+}
+button:hover{
+    transform: scale(1.2);
+    background: orangered;
+}
+.info{
+    display: flex;
+  img{
+    
+    margin:30px;
+}
+#headers{
+    padding:60px;
+    h3{
+        font-weight:bolder;
+        color:rgba(250, 4, 4, 0.973);
+    }
+    
+}  
+}
