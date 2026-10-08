@@ -1,22 +1,50 @@
-# 🐾 Project: Complex API 1 - Veterinary Practice
+# Veterinary Practice App
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+A front-end app that use two APIs data for looking up dog breeds' information to help a veterinary practice. 
+Data from The Dog api is used to make a request to the Dog Ceo api, once staff enters dog breeds, it would show information of that breed. 
 
-### How to submit your code for review:
+- Screenshots:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Veterinary Practice](./img/userpage.jpeg)
 
-Example:
+
+## How It's Made
+
+**Tech Used:** HTML, CSS, JavaScript, DogApi, Dog Ceo Api.
+
+The app uses JavaScript's `fetch()` to call the dog api first. 
+It then takes the data from that response and uses it to make a second request to dog ceo , and displays the combined result on the page.
+
+## Getting Started
+
+1. Clone this repository
+
+```bash
+   git clone https://github.com/sabrinalindev/veterinary-practice.git
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+2. Open `index.html` in your browser
+
+## How to Use
+
+1. Enter dog breed
+2. Press enter button
+3. Origin, image and important info about the breed will show up 
+
+## Features
+
+- Displays breed information and a photo
+- Search by dog breeds
+- No installation or dependencies neededs
+
+## Why This Stack
+
+- **JavaScript (`fetch`)**: Handles both API requests and renders the combined data dynamically without a page reload.
+- **HTML/CSS**: Simple, fast to load, and perfect for a lightweight front-end app.
+- **The Dog Api**: this api includes lots of information of dog breeds
+- **Dog Ceos**: This api includes image data of dog breeds.
+
+## Future Improvements
+
+-  Add search history or favorites
+-  Build pet profile and record
