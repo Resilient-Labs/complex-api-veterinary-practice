@@ -1,22 +1,32 @@
-# 🐾 Project: Complex API 1 - Veterinary Practice
+# 🐾 Pet Hospital Locator
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+## Project Description
 
-### How to submit your code for review:
+Pet Hospital Locator is a web application that helps users find the nearest pet hospital by zipcode. It uses the Geocod.io API to convert a ZIP code into geographic coordinates, then sends those coordinates to the Geoapify API to retrieve the nearest hospitals by name and address.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+The application displays the closest 3 hospitals within 10 miles.
+## Tech Stack
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- **HTML** 
+- **CSS**
+- **JavaScript**
+
+## How to Run or View It
+
+1. Clone or download the repository.
+2. Open `index.html` in a browser or serve the project using a local development server.
+3. Enter a ZIP code in the search field.
+4. Click **Search** to retrieve 3 closest hospitals in the area within 10 miles
+
+
+The application requires an internet connection to access its external APIs. API availability and credential requirements may affect the results.
+
+## Screenshots and Demo
+
+### Application Interface
+
+![Aurora MED SPA application interface](img/vet-api.png)
+![Aurora MED SPA application interface](img/vet-api2.png)
+
+
+The interface includes a ZIP-code search field, the three closest hospitals
