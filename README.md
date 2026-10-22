@@ -6,6 +6,8 @@ A weather safety tool for veternarians built using HTML, CSS, and JavaScript.
 
 This application allows users to enter their location and check current weather conditions to determine whether it is safe for a pet to be outside. The project connects two APIs, using data from one API to make a request to another and display relevant results to the user.
 
+[Use Pet Weather Safety Tool](https://kelvinimalenowa.github.io/pet-weather-safety/)
+
 ## Screenshot
 
 ![Project Screenshot](assets/mockup.png)
