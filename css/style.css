@@ -1,0 +1,35 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url('../img/images.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#drugInputValue {
+  width: 250px;
+}
+section{
+  text-align:center;
+  width:50%;
+  background: rgb(43, 126, 138);
+  border-radius:5px;
+  border:1px solid black;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
