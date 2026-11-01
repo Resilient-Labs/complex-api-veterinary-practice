@@ -1,0 +1,99 @@
+/* Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    background: linear-gradient(to right, #501313, #502735);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Heading */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+/* Input Area */
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    border: none;
+    margin: 0 auto 20px;
+}
+
+/* Input */
+#PET {
+    width: 300px;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Button */
+#submit {
+    width: 300px;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(86, 169, 207);
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(140, 175, 206);
+}
+
+/* API Results */
+#outputAPI1,
+#outputAPI2 {
+    width: 90%;
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 20px;
+
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    text-align: left;
+}
+
+/* Result Text */
+#outputAPI1 p,
+#outputAPI2 p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #PET,
+    #submit {
+        width: 100%;
+    }
+
+    #outputAPI1,
+    #outputAPI2 {
+        width: 100%;
+    }
+}
