@@ -1,22 +1,33 @@
-# 🐾 Project: Complex API 1 - Veterinary Practice
+# Vet Assist Dog Breed Health & Image Lookup
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+A web application that combines FDA veterinary adverse event reports with the Dog CEO API to fetch health incident data and a photo for a selected dog breed.
 
-### How to submit your code for review:
+---
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Features
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- **FDA Adverse Event Data:** Searches FDA veterinary reports to display reported symptoms, drug ingredients, brand names, and health outcomes for a specific breed.
+- **Dynamic Breed Matching:** Formats and cleans FDA breed names to seamlessly fetch matching images from the Dog CEO API.
+- **Random Breed Image:** Displays a random photo of the searched dog breed alongside its health report data.
+
+---
+
+## APIs Used
+
+- **openFDA Animal & Veterinary API:** `https://api.fda.gov/animalandveterinary/event.json`
+- **Dog CEO Dog API:** `https://dog.ceo/api/breed/{breed}/images/random`
+
+---
+
+## How It Works
+
+1. The user inputs a dog breed into `#dogInput` and clicks the `#dogBtn` button.
+2. The application queries the openFDA API for the top veterinary adverse event report linked to that breed.
+3. It updates the DOM with reported symptoms (`veddra_term_name`), drug information (active ingredients and brand name), and medical outcome.
+4. The breed name from the FDA response is parsed and formatted to match the Dog CEO API breed structure.
+5. A secondary request fetches a random image of the breed from Dog CEO and renders it in the `#placeHere` element.
+
+---
+
+<img width="2829" height="1571" alt="image" src="https://github.com/user-attachments/assets/55f373cf-12db-409a-9f7b-016fbb79e55e" />
+
