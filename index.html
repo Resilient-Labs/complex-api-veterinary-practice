@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="description" content="Pick a dog breed.">
+    	<meta name="keywords" content="veterinary">
+
+		<title>Project Puppy</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+	
+		<header class="controls">
+			<h1>Dog Look Up</h1>
+			<p>Choose your dog and recieve information about the breed!</p>
+
+			<form id="breed-form">
+				<select id="breed-select" disabled>
+					<option value="">Loading breeds</option>
+				</select>
+				<button type="submit" id="make-btn" disabled>search</button>
+			</form>
+
+			<p id="message" class="message" aria-live="polite"></p>
+		</header>
+
+		<main>
+
+			<article id="card" class="card hidden">
+				<div class="card-header"> 
+					<h2 id="card-name"></h2>
+					<p id="card-group" class="card-group"></p>
+				</div>
+
+				<img id="card-photo" class="card-photo" src="" alt="">
+
+				<dl class="card-facts">
+					<div>
+						<dt>Lifespan</dt>
+						<dd id="card-lifespan"></dd>
+					</div>
+					<div>
+						<dt>Weight</dt>
+						<dd id="card-weight"></dd>
+					</div>
+					<div>
+						<dt>Height</dt>
+						<dd id="card-height"></dd>
+					</div>
+					<div>
+						<dt>Bred for</dt>
+						<dd id="card-bredfor"></dd>
+					</div>
+				</dl>
+
+				<section class="card-temperament">
+					<h3>Temperament</h3>
+					<ul id="card-traits"></ul>
+				</section>
+
+			</article>
+
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

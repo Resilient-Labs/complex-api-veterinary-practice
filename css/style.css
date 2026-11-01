@@ -1,0 +1,70 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #162b43;
+  background-color: #d0ebf8;
+  background-image: url("../assets/images/doggywallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 24px 16px;
+}
+
+.controls {
+  max-width: 640px;
+  margin: 0 auto 24px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.92); /* a light panel so the text is easy to read on the pattern */
+  text-align: center;
+}
+
+
+#breed-form {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  text-align: center;
+}
+
+.card {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.card-photo {
+  max-width: 100%;
+  max-height: 420px;
+}
+
+#card-traits {
+  list-style-position: inside;
+}
+
+
+.hidden {
+  display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
