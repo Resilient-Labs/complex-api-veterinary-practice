@@ -3,13 +3,6 @@
 A front-end app that uses two APIs' data for looking up dog breed information to help a veterinary practice. 
 Data from The Dog api is used to make a request to the Dog Ceo api; once staff enters a dog breed, it shows information of that breed. 
 
-<<<<<<< HEAD
-- Check out here:
-  https://veterinary-practice.vercel.app/
-  
-- Screenshots:
-![Veterinary Practice](./img/userpage.jpeg)
-=======
 - Check out here: 
 
  https://veterinary-practice.vercel.app/
@@ -18,7 +11,7 @@ Data from The Dog api is used to make a request to the Dog Ceo api; once staff e
 
 ![Landing Page](./img/landingPage.jpeg)
 ![chihuahua example](./img/chihuahua.jpeg)
->>>>>>> ca9cb6d (Update screenshots)
+
 
 
 
