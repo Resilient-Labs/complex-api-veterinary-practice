@@ -1,0 +1,146 @@
+/* Include padding and borders in element widths. */
+* {
+    box-sizing: border-box;
+}
+
+/* Soft background with a repeating paw-print pattern. */
+body {
+    margin: 0;
+    padding: 24px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #243d32;
+    background-color: #edf5ee;
+
+    /* The paw pattern is built in—no image download needed. */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='%23d5e5d8' transform='rotate(-20 60 60)'%3E%3Cellipse cx='60' cy='70' rx='15' ry='12'/%3E%3Cellipse cx='39' cy='54' rx='6' ry='8'/%3E%3Cellipse cx='52' cy='43' rx='6' ry='8'/%3E%3Cellipse cx='68' cy='43' rx='6' ry='8'/%3E%3Cellipse cx='81' cy='54' rx='6' ry='8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Center the main content inside a white panel. */
+main {
+    max-width: 1000px;
+    margin: 24px auto;
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px #243d321a;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Center the introduction and status message. */
+main > p {
+    text-align: center;
+}
+
+/* Style all buttons. */
+button {
+    min-height: 44px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2e654c;
+    color: #ffffff;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #214c38;
+}
+
+/* Make keyboard navigation easy to see. */
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid #a65d16;
+    outline-offset: 4px;
+}
+
+/* Show when a request is loading. */
+button:disabled {
+    opacity: 0.65;
+    cursor: wait;
+}
+
+/* Center the main button. */
+#searchBtn {
+    display: block;
+    margin: 24px auto;
+}
+
+#status {
+    min-height: 24px;
+}
+
+/* Arrange animal cards in two columns. */
+#animalResults {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+/* Style each card created by JavaScript. */
+#animalResults > div {
+    padding: 24px;
+    background-color: #f6faf6;
+    border: 1px solid #d5e5d8;
+    border-radius: 14px;
+    overflow-wrap: anywhere;
+}
+
+#animalResults h2::before {
+    content: "🐾 ";
+}
+
+#animalResults button {
+    margin-top: 8px;
+}
+
+a {
+    color: #275e46;
+    text-underline-offset: 3px;
+}
+
+/* Phone screens: 600px wide and smaller. */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    main {
+        margin: 12px auto;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    /* Stack the cards in one column. */
+    #animalResults {
+        grid-template-columns: 1fr;
+    }
+
+    #animalResults > div {
+        padding: 18px;
+    }
+
+    /* Make buttons easier to tap. */
+    button {
+        width: 100%;
+    }
+}
