@@ -1,9 +1,10 @@
 # Veterinary Practice App
 
-A front-end app that use two APIs data for looking up dog breeds' information to help a veterinary practice. 
-Data from The Dog api is used to make a request to the Dog Ceo api, once staff enters dog breeds, it would show information of that breed. 
+A front-end app that uses two APIs' data for looking up dog breed information to help a veterinary practice. 
+Data from The Dog api is used to make a request to the Dog Ceo api; once staff enters a dog breed, it shows information of that breed. 
 
 - Screenshots:
+![Live Demo](https://veterinary-practice.vercel.app/)
 
 ![Veterinary Practice](./img/userpage.jpeg)
 
@@ -27,15 +28,15 @@ It then takes the data from that response and uses it to make a second request t
 
 ## How to Use
 
-1. Enter dog breed
-2. Press enter button
-3. Origin, image and important info about the breed will show up 
+1. Enter a dog breed
+2. Press the Enter button
+3. Origin, image, and important info about the breed will show up 
 
 ## Features
 
 - Displays breed information and a photo
 - Search by dog breeds
-- No installation or dependencies neededs
+- No installation or dependencies needed
 
 ## Why This Stack
 
