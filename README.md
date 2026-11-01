@@ -1,22 +1,17 @@
-# 🐾 Project: Complex API 1 - Veterinary Practice
+# Cat Wellness Checker
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+Type in a cat breed and get its profile: name, average weight, life span, a photo, plus normal feline heart rate and temperature ranges. Three APIs, one page.
 
-### How to submit your code for review:
+**Live site:** https://complex-api-veterinary-practice.vercel.app
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Cat Wellness screenshot](screenshot.jpg)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How the code works
+
+`getCat()` runs on the search button. It queries TheCatAPI's breed search with your input, takes the first match, and renders the breed name, metric weight, and life span. Then it fans out: `getCatImage()` takes the breed id from that first response and fetches the breed's photo from TheCatAPI's image endpoint, while `getHealthInfo()` independently calls a veterinary vital-signs API and uses `data.data.find(animal => animal.species === 'Cat')` to pull the cat row out of a multi-species dataset, rendering the BPM and Celsius ranges.
+
+The orchestration is what I find interesting here, because the two follow-up calls have different dependency shapes. The photo fetch needs the breed id from call one, so it's chained. The vitals call needs nothing from the first call, so it runs in parallel instead of waiting. Recognizing which calls are dependent and which are independent, and structuring the code to match, is a small optimization that keeps the page from doing sequential work it doesn't have to. Three requests, two APIs, one render, and no wasted waiting.
+
+The hardest part was the vitals API. It returns every species at once, so the whole feature hinged on one `.find()` filtering for cats before anything could render.
+
+TheCatAPI and a veterinary vitals API, plain JavaScript. My code is on the `answer` branch.
