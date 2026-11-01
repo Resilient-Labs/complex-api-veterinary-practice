@@ -1,22 +1,62 @@
-# 🐾 Project: Complex API 1 - Veterinary Practice
+# Cat and Dog Breed Matcher
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+Compare a cat or dog breed with breeds of the other species using shared temperament traits.
 
-### How to submit your code for review:
+## Overview
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Cat and Dog Breed Matcher lets a user search for either a cat breed or a dog breed.
 
-Example:
+The application retrieves information about the selected breed, loads breeds from the other species, compares their temperament traits, and returns the breed with the highest number of matching traits.
+
+## Features
+
+- Search for a cat or dog breed
+- Retrieve information about the selected breed
+- Compare temperament traits across species
+- Calculate a match score for each candidate breed
+- Display the highest-scoring match
+- Show the temperament traits shared by the matched breeds
+- Display available breed details and images
+
+## Technologies
+
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+</p>
+
+- [The Cat API](https://thecatapi.com/)
+- [The Dog API](https://thedogapi.com/)
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nilesleesmith/simply-find-matching-cat-and-dog-breeds.git
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+2. Open `js/main.js`.
+
+3. Replace the placeholder values for `theCatAPI_Key` and `theDogAPI_Key` with valid API keys.
+
+4. Open `index.html` in a web browser.
+
+No additional packages or build steps are required.
+
+## Live Site
+
+https://nilesleesmith.github.io/simply-find-matching-cat-and-dog-breeds/
+
+## Screenshots
+
+![Cat and Dog Breed Matcher desktop view](./screenshots/simply-find-matching-cat-and-dog-breeds-desktop.png)

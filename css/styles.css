@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+    background: paleturquoise;
+}
+
+header,
+footer {
+    flex-shrink: 0;
+    padding: 1rem;
+    background: deeppink;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+section {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+main>section:first-child>div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+#breedName {
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 0.25rem;
+}
+
+button {
+    padding: 0.75rem 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: deeppink;
+    color: white;
+}
+
+button:hover {
+    background: mediumvioletred;
+}
+
+#searchBreed,
+#matchBreed {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#searchBreed section,
+#matchBreed section {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#searchBreed h3,
+#matchBreed h3 {
+    margin-bottom: 1rem;
+}
+
+#searchBreed div,
+#matchBreed div {
+    margin-bottom: 0.75rem;
+}
+
+#searchBreed span:first-child,
+#matchBreed span:first-child {
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+}
+
+footer {
+    font-size: 1rem;
+}

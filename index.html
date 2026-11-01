@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CatDog. DogCat. Find a Match.</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>CatDog. DogCat. Find a Match.</h1>
+        </header>
+
+        <main>
+            <section>
+                <h2>Search a Cat, Find a Dog. Search a Dog, Find a Cat.</h2>
+                <p>Choose Cat or Dog, then enter a breed. We'll compare temperament traits and find the closest matching
+                    breed from the other species.</p>
+                <div>
+                    <input type="radio" id="searchCat" name="searchAnimal" value="cat" checked>
+                    <label for="searchCat">Cat</label>
+
+                    <input type="radio" id="searchDog" name="searchAnimal" value="dog">
+                    <label for="searchDog">Dog</label>
+                </div>
+
+                <label for="breedName">Breed:</label>
+                <input type="text" id="breedName">
+
+                <button>Find My Match</button>
+            </section>
+
+            <section>
+                <h2 id="headerSearchBreed">Information About Your Cat Breed</h2>
+                <section id="searchBreed"></section>
+            </section>
+
+            <section>
+                <h2 id="headerMatchBreed">Information About Your Matching Dog Breed</h2>
+                <section id="matchBreed"></section>
+            </section>
+        </main>
+
+        <footer>
+            <small>Made by: Niles</small>
+        </footer>
+
+        <script type="text/javascript" src="./js/main.js"></script>
+    </body>
+
+</html>
