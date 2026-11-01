@@ -18,7 +18,7 @@
             console.log(data)
 
             document.querySelector('h3').textContent = data[0].description
-            document.querySelector('.origin').textContent = data[0].origin
+            document.querySelector('.origin').textContent = 'Origin: '+ data[0].origin
             document.querySelector('.breed').textContent = data[0].name.toLowerCase()
 
             const slug = data[0].name.toLowerCase()
