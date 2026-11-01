@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Weather Safety</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Pet Weather Safety</h1>
+    </header>
+
+    <main>
+
+        <!-- Location Search -->
+        <section class="search-section">
+            <h2>Enter Your Zip Code</h2>
+
+            <input id="location-input" type="text" placeholder="Enter ZIP code">
+
+            <button id="search-button" type="button">
+                Search
+            </button>
+        </section>
+
+
+        <!-- Weather Information -->
+        <section class="weather-section">
+
+            <h2 id="location-name">Location</h2>
+
+            <div class="weather-main">
+                <img id="weather-icon" src="" alt="">
+                <p id="weather-condition"></p>
+                <p id="temperature">--°</p>
+            </div>
+
+            <div class="weather-details">
+                <p>Humidity: <span id="humidity">--</span></p>
+                <p>UV Index: <span id="uv-index">--</span></p>
+            </div>
+
+            <div class="weather-message">
+                <h3>Pet Safety</h3>
+                <p id="safety-message">
+                    Enter a location to check the weather for your dog.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
