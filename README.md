@@ -1,22 +1,36 @@
-# 🐾 Project: Complex API 1 - Veterinary Practice
+# Dog Breed Information App
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+The Dog Breed Information App is a simple front-end web application designed to provide helpful dog breed information for a veterinary practice. Users can select a dog breed from a dropdown list and view information about that specific breed.
 
-### How to submit your code for review:
+The application uses data returned from one API to make a request to another API, allowing users to explore different dog breeds and retrieve additional information about each one.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Features
+Breed Selection: Choose a dog breed from a dropdown list.
+Breed Information: Retrieve and display information about the selected dog breed.
+API Integration: Use data from one API to make a request to another API.
+Dynamic Content: Update the displayed information based on the selected breed.
+Interactive Interface: Easily browse available dog breeds and view details about each one.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Tech Stack
+Frontend: HTML, CSS, JavaScript
+APIs: External Dog Breed APIs
+
+## What I Learned
+Working with multiple external APIs.
+Using data returned from one API to make a request to another API.
+Making asynchronous API requests using JavaScript.
+Retrieving and processing dog breed information.
+Working with dropdown menus to collect user input.
+Using event listeners to respond to user selections.
+Displaying dynamic content based on API responses.
+Connecting multiple API requests to create a functional application.
+
+## Installation
+Fork and clone the repository.
+Navigate to the project directory.
+
+## Usage
+Open the index.html file in your browser.
+Select a dog breed from the dropdown list.
+View the information returned for the selected breed.
+Choose another breed to explore additional dog breed information!
