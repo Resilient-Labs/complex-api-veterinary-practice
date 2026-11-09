@@ -3,7 +3,8 @@
 The Dog Breed Information App is a simple front-end web application designed to provide helpful dog breed information for a veterinary practice. Users can select a dog breed from a dropdown list and view information about that specific breed. The application uses data returned from one API to make a request to another API, allowing users to explore different dog breeds and retrieve additional information about each one.
 
 
-<img width="1781" height="903" alt="complexVetScreenshot 2026-11-09 at 12 21 08 AM" src="https://github.com/user-attachments/assets/26fbc22e-1695-410c-b7d5-9ba09997dd44" />
+<img width="1775" height="902" alt="Screenshot 2026-11-09 at 12 23 36 AM" src="https://github.com/user-attachments/assets/b67c6216-0a6a-4b93-915e-0dff159326f3" />
+
 
 
 
