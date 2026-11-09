@@ -1,6 +1,7 @@
 # 🐾 Veterinary Practice API Integration
 
-### JavaScript Multi-API Bootcamp Assignment
+<img width="851" height="591" alt="Complex VET SS" src="https://github.com/user-attachments/assets/68ee6f1f-13c7-482c-881e-790a0d180dd5" />
+
 
 ## About the Project
 
@@ -44,20 +45,7 @@ The goal is to get more comfortable working with multiple APIs and understanding
 - Displaying information with DOM manipulation.
 - Handling errors and missing data.
 
-## Project Status
 
-**Assignment instructions available — implementation not yet uploaded.**
-
-The repository currently contains the original bootcamp assignment README but no application code.
-
-## Next Steps
-
-1. Choose a veterinary-related problem to solve.
-2. Identify two APIs that can work together.
-3. Build the front-end interface.
-4. Connect the APIs using JavaScript.
-5. Combine and display the returned information.
-6. Test the application and upload the completed code.
 
 ## Author
 
