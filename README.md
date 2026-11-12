@@ -2,8 +2,8 @@
 
 A web application that combines FDA veterinary adverse event reports with the Dog CEO API to fetch health incident data and a photo for a selected dog breed.
 
----
-
+## Live Demo
+https://camerondcrawley.github.io/complex-api-veterinary/
 ## Features
 
 - **FDA Adverse Event Data:** Searches FDA veterinary reports to display reported symptoms, drug ingredients, brand names, and health outcomes for a specific breed.
