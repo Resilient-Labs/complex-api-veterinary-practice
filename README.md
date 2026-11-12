@@ -4,6 +4,8 @@ A simple front-end web app that helps pet owners find nearby veterinary clinics 
 
 ![Screenshot](./images/vetApp.png)
 
+[Try it here](https://exbrto.github.io/VeterinaryApp/)
+
 ## Why It's Useful
 
 When a pet has an emergency after hours, the owner often calls their regular vet and gets a voicemail. Pointing clients to this app, from the practice's website, voicemail message, or after-hours sign, gets them to nearby care quickly and takes stress off the practice's staff.
