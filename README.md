@@ -3,7 +3,7 @@
 A quick dog-breed reference for veterinary practice staff. Pick a breed to see its life span, weight ranges, coat, exercise needs, and temperament, plus a Wikipedia summary and photo.
  
 
-🔗 **Live Demo:** [kareemahb.github.io/complex-api-veterinary-practice](https://kareemahb.github.io/complex-api-veterinary-practice/)
+🔗 **Live Demo:** [kareemahb.github.io/complex-api-veterinary-practice](https://kareemahb.github.io/api-veterinary/)
  
 ![Vet Breed Reference showing a breed dropdown, breed details, and a Wikipedia summary with a photo](image.png)
  
@@ -62,7 +62,7 @@ No frameworks, dependencies, or build tools.
 ## 📁 Project Structure
  
 ```
-complex-api-veterinary-practice/
+api-veterinary/
 ├── index.html   # Breed form, details card, Wikipedia section, disclaimer
 ├── main.css     # Styling
 ├── main.js      # VetBreedApp class
@@ -72,10 +72,10 @@ complex-api-veterinary-practice/
  
 ## 🚀 Getting Started
  
-Try it live on **[GitHub Pages](https://kareemahb.github.io/complex-api-veterinary-practice/)**, or run it locally:
+Try it live on **[GitHub Pages](https://kareemahb.github.io/api-veterinary/)**, or run it locally:
  
 ```bash
-git clone https://github.com/kareemahb/complex-api-veterinary-practice.git
+git clone https://github.com/kareemahb/api-veterinary.git
 cd complex-api-veterinary-practice
 ```
  
