@@ -1,13 +1,32 @@
-README for Complex API 1
-Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+# Pet Stores Nearby
 
-Idea: Create a pet store locator where a user can enter their address and they will receive a number of store locations within a certain parameter.
+Enter an address and get a list of pet shops near it.
 
-APIs Used
+A small front-end exercise from the 100Devs bootcamp: it chains two APIs — the first turns the address into coordinates, the second finds pet shops around those coordinates.
 
-GEOCODE API - https://geocode.maps.co/search?q=${address_query}&api_key=6ab55fa363adb593355201dksf01fba
+## What it does
 
-- used to find the longitude and latitude of the users input
+- Takes an address and geocodes it to latitude and longitude with the Geocode API.
+- Finds pet shops within 10,000 metres of that location with the LocationIQ Nearby API and lists their names.
 
-LOCATIONIQ - https://api.locationiq.com/v1/nearby?key=${location_iq_api_key}&lat=${latitude}&lon=${longitude}&radius=10000&tag=shop:pet
--used to find pet stores located with 10000M of the users address
+## Tech stack
+
+- HTML, CSS, JavaScript (no build step, no server)
+- Geocode API (`geocode.maps.co`) — address to coordinates
+- LocationIQ Nearby API — pet shops near those coordinates
+
+## How to run it
+
+Open `index.html` in a browser, type an address, and click **Find Pet Shops**.
+
+## Project structure
+
+```
+index.html      - address input, button, and the store list
+css/style.css   - page styling
+js/main.js      - geocoding, pet shop lookup, and rendering the list
+```
+
+---
+
+Thay Brown — thaybrown22@gmail.com · https://thaythecoder.netlify.app · https://github.com/tbrown320 · https://www.linkedin.com/in/thaybrown
