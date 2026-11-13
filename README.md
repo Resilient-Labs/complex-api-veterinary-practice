@@ -53,3 +53,5 @@ cd Dog-Health-Tips
 - Add your own tips to the list in `index.html`.
 - Consider adding a filter or category buttons so visitors can jump to diet, exercise, or grooming tips.
 - Try changing the styling in `assets/styles.css` to make it your own.
+
+## Happy Coding!
