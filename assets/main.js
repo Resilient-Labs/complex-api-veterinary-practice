@@ -24,6 +24,7 @@ function getDog(){
         .then(res => res.json())
         .then((data) => {
             console.log(data) //to test API works 
+            document.querySelector('img').style.display = 'block'
             //Adding all of the info to a fact sheet depending on the breed of dog 
             document.querySelector('#dogName').innerText= `Your dog is a ✨ ${data[0].name} ✨`
             document.querySelector('#training').innerText= `Trainability: ${data[0].trainability}`

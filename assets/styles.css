@@ -30,21 +30,27 @@ CLEARFIX HACK
 body{
     background-image: url(Photos/dogBackground.avif);
     background-position: center;
- 
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
     font-weight: 600;
-    color: rgb(63, 52, 19); 
+    color: #2F4638; 
     padding-top: 2rem;
     padding-left: 5rem;
     padding-bottom: 2.3rem;
     padding-top: 3rem;
-    background: rgba(188, 181, 103, 0.801);
-
+    background: #d9b779e8;
 }
-
+.input-section{
+    max-width: 700px;
+    margin: 2rem;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
 h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -59,16 +65,29 @@ h2{
     font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 1.5rem;
+    margin-top: 2rem;
 }
 #dogBreed{
     font-size: 2rem;
     font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 1.5rem;
+    margin-top: 1rem;
 }
 #submit{
     font-size: 2rem;
     font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+    background:#2F4638;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#submit:hover {
+  background-color: #C9795B;
+}
+#dogName{
+    color: #2F4638;
 }
 img{
     max-width: 800px;
@@ -85,8 +104,21 @@ img{
     border-radius: 0.8rem;
     width: 60%;
     margin: 2rem auto;
-    background: rgba(194, 177, 163, 0.908);
+    background:#C9795B;
     font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+}
+.pContainer{
+    max-width: 700px;
+    font-size: 1.3rem;
+    margin: 2rem auto;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.pContainer span{
+    font-weight: bold;
+    color: #2F4638;
 }
 #training, #barking, #strangers, #life, #otherDogs{
     margin-top: 0.8rem;
@@ -100,11 +132,16 @@ img{
     border-radius: 0.8rem;
     width: 60%;
     margin: auto;
-    background: rgba(194, 177, 163, 0.908);
+    background: #C9795B;
     font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
 }
 .train, .bark, .strange, .lifeEx, .others{
     margin-top: 0.8rem;
     margin-left: 1.5rem;
     margin-bottom: 0.8rem;
+}
+img{
+    display: none;
+    max-height: 500px;
+    width: auto;
 }

@@ -11,17 +11,23 @@
 </head>
 <body>
     <h1>A New Dog Owner's Guide to Their Breed</h1>
-    <p for="inputDog" class="typeHere">Type the breed name here:</p>
-    <input type="text" id="dogBreed" placeholder="e.g. beagle">
-    <button type= "button" id= "submit">Submit</button>
+    <section class="input-section">
+        <p for="inputDog" class="typeHere">Type the breed name here:</p>
+        <input type="text" id="dogBreed" placeholder="e.g. beagle">
+        <button type= "button" id= "submit">Submit</button>
+    </section>
+    
     <section id="factSheet">
         <h2 id="dogName"></h2>
         <img src="" alt="image of dog that user requested">
-        <p id="training">Trainability: </p>
-        <p id="barking">Barking: </p>
-        <p id="strangers">Good With Strangers:  </p>
-        <p id="life">Max Life Expectancy: </p>
-        <p id="otherDogs">Good With Other Dogs: </p>
+        <section class = "pContainer">
+            <p id="training"><span>Trainability: </span></p>
+            <p id="barking"><span>Barking: </span></p>
+            <p id="strangers"><span>Good With Strangers:  </span></p>
+            <p id="life"><span>Max Life Expectancy: </span></p>
+            <p id="otherDogs"><span>Good With Other Dogs: </span></p>
+        </section>
+       
     </section>
     <section class="key">
         <section class="train">
