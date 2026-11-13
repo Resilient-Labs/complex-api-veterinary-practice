@@ -135,6 +135,15 @@ img{
     background: #C9795B;
     font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
 }
+.keyContainer{
+    max-width: 80%;
+    font-size: 1.3rem;
+    margin: 2rem auto;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
 .train, .bark, .strange, .lifeEx, .others{
     margin-top: 0.8rem;
     margin-left: 1.5rem;
