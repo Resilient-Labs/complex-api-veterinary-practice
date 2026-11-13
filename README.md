@@ -3,7 +3,7 @@
 A quick dog-breed reference for veterinary practice staff. Pick a breed to see its life span, weight ranges, coat, exercise needs, and temperament, plus a Wikipedia summary and photo.
  
 
-🔗 **Live Demo:** [kareemahb.github.io/complex-api-veterinary-practice](https://kareemahb.github.io/api-veterinary/)
+🔗 **Live Demo:** [kareemahb.github.io/api-veterinary](https://kareemahb.github.io/api-veterinary/)
  
 ![Vet Breed Reference showing a breed dropdown, breed details, and a Wikipedia summary with a photo](image.png)
  
@@ -76,7 +76,7 @@ Try it live on **[GitHub Pages](https://kareemahb.github.io/api-veterinary/)**, 
  
 ```bash
 git clone https://github.com/kareemahb/api-veterinary.git
-cd complex-api-veterinary-practice
+cd api-veterinary
 ```
  
 Open `index.html` in your browser, or use the **Live Server** extension in VS Code.
