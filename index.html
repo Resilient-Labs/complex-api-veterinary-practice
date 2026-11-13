@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Health Tips</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Carter+One&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Honk:MORF@15&family=Lilita+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Titan+One&family=Unkempt:wght@400;700&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <h1>A New Dog Owner's Guide to Their Breed</h1>
+    <section class="input-section">
+        <p for="inputDog" class="typeHere">Type the breed name here:</p>
+        <input type="text" id="dogBreed" placeholder="e.g. beagle">
+        <button type= "button" id= "submit">Submit</button>
+    </section>
+    
+    <section id="factSheet">
+        <h2 id="dogName"></h2>
+        <img src="" alt="image of dog that user requested">
+        <section class = "pContainer">
+            <p id="training"><span>Trainability: </span></p>
+            <p id="barking"><span>Barking: </span></p>
+            <p id="strangers"><span>Good With Strangers:  </span></p>
+            <p id="life"><span>Max Life Expectancy: </span></p>
+            <p id="otherDogs"><span>Good With Other Dogs: </span></p>
+        </section>
+       
+    </section>
+    <section class="key">
+        <section class="keyContainer">
+            <section class="train">
+                       <h4>Trainability: Measures how easily it is to train your dog breed</h4>
+                          <p>Score ranges from 1 - 5 where 1 = your dog is very difficult to train and 5 = your dog is very easy to train</p>
+                   </section>
+                   <section class="bark">
+                       <h4>Barking: Measures how vocal your dog breed is</h4>
+                           <p>Score ranges from 1 - 5 where 1 = minimal amount of barking and 5 = maximum amount of barking </p>
+                   </section>
+                   <section class="strange">
+                       <h4>Good With Strangers: Measures how compatible your dog breed generally is with strangers</h4>
+                           <p>Score ranges from 1 - 5 where 1 = least compatible with strangers and 5 = most compatible with strangers.</p>
+                   </section>
+                   <section class="lifeEx">
+                       <h4>Max Life Expectancy: Measures the maximum life expectancy in calendar years.</h4>
+                           <p>Number indicates amount of expected calendar years NOT "dog years".</p>
+                           <p>Of course, our dogs live forever in our hearts 💗</p>
+                   </section>
+                   <section class="others">
+                       <h4>Good With Other Dogs: Measures how compatible your dog breed generally is with other dogs</h4>
+                           <p>Score ranges from 1 - 5 where 1 = least compatible with other dogs and 5 = most compatible with other dogs.</p>
+                   </section>
+                </section>
+        </section>
+       
+   
+   
+<script src="assets/main.js"></script>
+</body>
+</html>
