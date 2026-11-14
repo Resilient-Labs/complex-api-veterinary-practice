@@ -2,7 +2,7 @@
 
 Enter an address and get a list of pet shops near it.
 
-A small front-end exercise from the 100Devs bootcamp: it chains two APIs — the first turns the address into coordinates, the second finds pet shops around those coordinates.
+![Screenshot of Stores](Screenshot.png)
 
 ## What it does
 
